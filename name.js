@@ -12,3 +12,15 @@ function printname() {
 }
 
 printname();
+
+
+
+day = "sunday";
+dayno = 1;
+switch (dayno) {
+    case 1:
+        if (day === "sunday" || day === "saturday") {
+            console.log("WEEKEND");
+        } else console.log("WEEKDAY");
+        break;
+}
